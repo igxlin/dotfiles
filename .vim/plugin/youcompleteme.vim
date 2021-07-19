@@ -6,7 +6,8 @@ let g:ycm_complete_in_strings = 1
 
 let g:ycm_filetype_whilelist = {
                         \ "c": 1, "cpp": 1, "sh": 1, "zsh": 1,
-                        \ "python": 1, "go": 1, "gdscript": 1
+                        \ "python": 1, "go": 1, "gdscript": 1,
+                        \ "lua": 1
                         \ }
 let g:ycm_filetype_blacklist = {
             \ 'ledger': 1
