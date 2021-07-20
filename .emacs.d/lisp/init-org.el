@@ -33,6 +33,7 @@
     (kbd "<leader>oih") 'org-insert-heading
     (kbd "<leader>oci") 'org-clock-in
     (kbd "<leader>oco") 'org-clock-out
+    (kbd "<leader>ocr") 'org-clock-report
     (kbd "<leader>sp") 'org-set-property
     (kbd "+") 'org-priority-up
     (kbd "-") 'org-priority-down)

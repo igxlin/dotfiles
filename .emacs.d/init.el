@@ -15,7 +15,6 @@
 (require 'init-package)
 (require 'init-evil)
 (require 'init-org)
-(require 'init-mu4e)
 (require 'init-lang)
 (require 'init-misc)
 
