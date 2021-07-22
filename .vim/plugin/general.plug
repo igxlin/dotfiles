@@ -1,13 +1,15 @@
 " vim: ft=vim
 
-Plug 'Yggdroot/LeaderF', {'do': ':LeaderfInstallCExtension'}
 Plug 'Valloric/YouCompleteMe', {
             \ 'do': 'python3 ./install.py --clangd-completer',
             \ }
-Plug 'dense-analysis/ale'
-Plug 'sheerun/vim-polyglot'
 Plug 'prabirshrestha/vim-lsp'
 Plug 'mattn/vim-lsp-settings'
+
+Plug 'dense-analysis/ale'
+Plug 'sheerun/vim-polyglot'
+Plug 'Yggdroot/LeaderF', {'do': ':LeaderfInstallCExtension'}
+Plug 'tpope/vim-eunuch'
 
 let g:ycm_language_server = []
 let g:Lf_RootMarkers = []
