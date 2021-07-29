@@ -10,5 +10,5 @@ let g:ycm_filetype_whilelist = {
                         \ "lua": 1
                         \ }
 let g:ycm_filetype_blacklist = {
-            \ 'ledger': 1
+            \ 'ledger': 1, 'markdown': 1, 'org': 1
             \ }

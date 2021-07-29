@@ -1,2 +1,4 @@
+" vim: ft=vim
+
 Plug 'habamax/vim-godot', {'for': 'gdscript'}
 

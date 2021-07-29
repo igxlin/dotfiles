@@ -16,6 +16,8 @@ set formatoptions+=mB
 set formatoptions-=tc
 set secure
 
+set nofoldenable
+
 set hidden
 
 set completeopt=menu,menuone
