@@ -48,13 +48,14 @@ Plug 'tpope/vim-fugitive'
 nnoremap <silent> <leader>gl :Gclog! -- %<CR>
 nnoremap <silent> <leader>gd :Gdiffsplit <CR>
 nnoremap <silent> <leader>gs :G<CR>
+
+Plug 'airblade/vim-gitgutter'
 Plug 'easymotion/vim-easymotion'
 
 map <Space> <Plug>(easymotion-prefix)
 
 " Language specific
 Plug 'habamax/vim-godot', {'for': 'gdscript'}
-Plug 'plasticboy/vim-markdown'
 Plug 'scrooloose/nerdtree', {'on': 'NERDTreeToggle'}
 Plug 'ledger/vim-ledger', {'for': 'ledger'}
 
