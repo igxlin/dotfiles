@@ -68,4 +68,4 @@ fi
 zplug load
 
 source $HOME/.aliases
-[ -f $HOME/.zshrc_local ] && source $HOME/.zshrc_local
+[ -f $HOME/.zsh_local ] && source $HOME/.zsh_local

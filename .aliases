@@ -2,4 +2,4 @@
 
 alias emacs='emacs -nw'
 alias mu4e='emacs -nw -f mu4e'
-alias todo='emacs -nw ~/notes/todo.org'
+alias todo='emacs -nw ~/journals/todo.org'
