@@ -18,7 +18,7 @@ HISTSIZE=1000
 SAVEHIST=1000
 HISTFILE=~/.zsh_history
 
-[ -d ~/bin ] && export PATH="$HOME/bin:$PATH"
+source $HOME/.path
 
 [[ -s /etc/profile.d/autojump.sh ]] && source /etc/profile.d/autojump.sh
 
@@ -28,16 +28,9 @@ Darwin)
     # commands for macOS
     [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 
-    # ruby
-    [ -d /usr/local/opt/ruby/bin ] && export PATH="/usr/local/opt/ruby/bin:$PATH"
-
-    # java
-    [ -d /usr/local/opt/openjdk/bin ] && export PATH="/usr/local/opt/openjdk/bin:$PATH"
-
     # Alias
     alias ls='ls -G'
     alias ll='ls -lhG'
-    alias bug='brew upgrade --greedy'
     
     source ~/.macos
 ;;

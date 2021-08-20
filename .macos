@@ -2,3 +2,5 @@
 
 export BROWSER='open -a safari'
 [ -d /Applications/Firefox.app ] && export BROWSER='open -a firefox'
+
+alias bug='brew upgrade --greedy'
