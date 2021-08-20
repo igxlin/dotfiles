@@ -21,7 +21,7 @@ set forward_quote=yes
 auto_view text/html
 
 macro index 'c' '<change-folder>?<change-dir><home>^K=<enter>'
-macro index 's' '<save-message>?'
+macro index,pager 's' '<save-message>?'
 
 macro attach 'V' "<pipe-entry>iconv -c --to-code=UTF8 > ~/.cache/mutt/mail.html<enter><shell-escape>$BROWSER ~/.cache/mutt/mail.html<enter>"
 

@@ -21,7 +21,6 @@ Plug 'Valloric/YouCompleteMe', {
             \ 'do': 'python3 ./install.py --clangd-completer',
             \ }
 Plug 'prabirshrestha/vim-lsp'
-Plug 'mattn/vim-lsp-settings'
 
 Plug 'dense-analysis/ale'
 Plug 'sheerun/vim-polyglot'
