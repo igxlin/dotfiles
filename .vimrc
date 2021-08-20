@@ -105,3 +105,7 @@ silent colorscheme onedark
 
 highlight Pmenu ctermbg=grey
 set exrc
+
+if !empty(glob('~/.vim_local'))
+    source ~/.vim_local
+endif
