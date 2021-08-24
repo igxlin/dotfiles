@@ -32,4 +32,18 @@
     (kbd "gr") 'lsp-find-references)
   (add-to-list 'lsp-file-watch-ignored-directories "[/\\\\]\\.git\\'"))
 
+(use-package dap-mode
+  :defer
+  :commands (dap-mode)
+  :ensure t
+  :hook
+  ((lsp-mode . dap-mode))
+  ((go-mode . (lambda () (require 'dap-go))))
+  :config
+  (dap-auto-configure-mode t)
+  (setq dap-auto-configure-features '(sessions locals controls tooltip)))
+
+(use-package magit
+  :ensure t)
+
 (provide 'init-lang)
