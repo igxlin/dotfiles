@@ -85,7 +85,12 @@
   :init
   (setq org-agenda-dim-blocked-tasks nil)
   (setq org-agenda-skip-deadline-prewarning-if-scheduled t)
-
+  (setq org-agenda-prefix-format
+	'((agenda . "%i %-12:c%?-12t% s %b")
+	  (timeline . "  % s")
+	  (todo . "%i %-12:c %b")
+	  (tags . "%i %-12:c")
+	  (search . " %i %-12:c")))
 
   (setq org-deadline-warning-days 10)
   (setq org-agenda-compact-blocks t)
