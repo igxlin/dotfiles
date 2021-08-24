@@ -20,28 +20,11 @@
   :mode (("\\.go$" . go-mode))
   :hook ((go-mode . (lambda () (setq tab-width 4)))))
 
-(use-package lsp-mode
+(use-package eglot
   :ensure t
-  :commands (lsp lsp-deferred)
+  :commands (eglot)
   :hook
-  ((go-mode . lsp-deferred)
-   (lsp-mode . lsp-enable-which-key-integration))
-  :config
-  (evil-define-key 'normal lsp-mode-map
-    (kbd "gd") 'lsp-find-definition
-    (kbd "gr") 'lsp-find-references)
-  (add-to-list 'lsp-file-watch-ignored-directories "[/\\\\]\\.git\\'"))
-
-(use-package dap-mode
-  :defer
-  :commands (dap-mode)
-  :ensure t
-  :hook
-  ((lsp-mode . dap-mode))
-  ((go-mode . (lambda () (require 'dap-go))))
-  :config
-  (dap-auto-configure-mode t)
-  (setq dap-auto-configure-features '(sessions locals controls tooltip)))
+  ((go-mode . eglot-ensure)))
 
 (use-package magit
   :ensure t)
