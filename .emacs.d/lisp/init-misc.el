@@ -46,11 +46,6 @@
 	'((read-file-name-internal . ivy--regex-fuzzy)
 	  (t . ivy--regex-plus))))
 
-(use-package vterm
-  :commands (vterm)
-  :config
-  (setq vterm-kill-buffer-on-exit t))
-
 (use-package exec-path-from-shell
   :if (memq window-system '(mac ns))
   :ensure t
