@@ -27,6 +27,9 @@
   ((go-mode . eglot-ensure)))
 
 (use-package magit
-  :ensure t)
+  :ensure t
+  :config
+  (evil-define-key 'normal 'global
+    (kbd "<leader>gs") 'magit))
 
 (provide 'init-lang)
