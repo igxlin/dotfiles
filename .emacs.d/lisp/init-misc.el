@@ -58,7 +58,7 @@
 (use-package company
   :init
   (setq company-global-modes
-	'(emacs-lisp-mode go-mode ledger-mode))
+	'(emacs-lisp-mode go-mode ledger-mode sh-mode))
   :hook ((after-init . global-company-mode))
   :config
   (setq company-minimum-prefix-length 1))

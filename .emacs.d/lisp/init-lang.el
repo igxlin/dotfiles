@@ -29,6 +29,7 @@
 (use-package magit
   :ensure t
   :config
+  (setq magit-refresh-status-buffer nil)
   (evil-define-key 'normal 'global
     (kbd "<leader>gs") 'magit))
 
