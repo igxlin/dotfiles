@@ -1,5 +1,8 @@
 [user]
 	email = hi@gxlin.org
 	name = Guangxiong Lin
+	signingkey = DC290711AFF905FA
 [init]
 	defaultBranch = main
+[commit]
+	gpgsign = true
