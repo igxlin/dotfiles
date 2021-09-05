@@ -3,6 +3,9 @@
 JAVA_PATH=/usr/local/opt/openjdk/bin
 [ -d $JAVA_PATH ] && export PATH=$PATH:$JAVA_PATH
 
+RUBY_PATH=/usr/local/opt/ruby/bin
+[ -d $RUBY_PATH ] && export PATH=$RUBY_PATH:$PATH
+
 export BROWSER='open -a safari'
 [ -d /Applications/Firefox.app ] && export BROWSER='open -a firefox'
 
