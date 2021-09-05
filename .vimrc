@@ -34,7 +34,7 @@ let &t_ut=''
 if has("gui_running")
     if has("gui_macvim")
         set guifont=Monaco:h15
-        set transparency=10
+        set transparency=5
         set noimdisable
 
         noremap <D-1> :tabn 1<CR>
