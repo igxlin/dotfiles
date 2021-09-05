@@ -6,6 +6,7 @@ export VISUAL=vim
 export EDITOR=vim
 
 export LANG=en_US.UTF-8
+export GPG_TTY=$(tty)
 export GPG_KEY=$(tty)
 
 # Edit command line
