@@ -16,6 +16,7 @@
 (require 'init-evil)
 (require 'init-org)
 (require 'init-lang)
+(require 'init-filetype)
 (require 'init-misc)
 
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
