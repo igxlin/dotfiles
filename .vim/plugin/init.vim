@@ -24,7 +24,8 @@ Plug 'prabirshrestha/vim-lsp'
 
 Plug 'dense-analysis/ale'
 Plug 'sheerun/vim-polyglot'
-Plug 'Yggdroot/LeaderF', {'do': ':LeaderfInstallCExtension'}
+Plug 'junegunn/fzf'
+Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-eunuch'
 Plug 'godlygeek/tabular'
 Plug 'ludovicchabant/vim-gutentags'
