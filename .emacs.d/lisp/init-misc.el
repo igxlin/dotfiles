@@ -9,6 +9,8 @@
 (setq-default fill-column 72)
 (menu-bar-mode -1)
 (xterm-mouse-mode 1) ;; Enable mouse
+(tool-bar-mode -1)
+(global-auto-revert-mode t)
 
 (use-package atom-one-dark-theme
   :config
