@@ -24,6 +24,7 @@ macro index 'c' '<change-folder>?<change-dir><home>^K=<enter>'
 macro index,pager 's' '<save-message>?'
 
 macro attach 'V' "<pipe-entry>iconv -c --to-code=UTF8 > ~/.cache/mutt/mail.html<enter><shell-escape>$BROWSER ~/.cache/mutt/mail.html<enter>"
+macro attach s <save-entry><kill-line>~/Downloads/
 
 # key bindings
 source ~/.mutt/keybindings
