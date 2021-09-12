@@ -12,8 +12,7 @@
     (kbd "<leader>c") 'org-capture)
   :config
   (require 'org-tempo)
-  (setq org-directory "~/notes/")
-  (setq org-default-notes-file (concat org-directory "/inbox.org"))
+  (setq org-default-notes-file "~/journals/inbox.org")
   (setq org-capture-templates
 	'(("t" "TODO" entry (file+headline org-default-notes-file "Tasks")
 	   "* TODO %?\nCaptured on %U\n  %i\n  %a")
