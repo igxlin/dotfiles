@@ -49,7 +49,6 @@ nnoremap <silent> <leader>gl :Gclog! -- %<CR>
 nnoremap <silent> <leader>gd :Gdiffsplit <CR>
 nnoremap <silent> <leader>gs :G<CR>
 
-Plug 'airblade/vim-gitgutter'
 Plug 'easymotion/vim-easymotion'
 
 map <Space> <Plug>(easymotion-prefix)
