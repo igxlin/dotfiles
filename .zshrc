@@ -61,4 +61,5 @@ fi
 zplug load
 
 source $HOME/.aliases
+source $HOME/.functions
 [ -f $HOME/.zsh_local ] && source $HOME/.zsh_local

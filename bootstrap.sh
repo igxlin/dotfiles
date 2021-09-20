@@ -19,7 +19,7 @@ remove_and_link () {
 link_all () {
     remove_and_link .ctags.d .mutt bin .aliases .macos \
         .mbsyncrc .msmtprc  .tmux.conf .urlview .zshrc \
-        .vimrc .vim .path
+        .vimrc .vim .path .functions
 }
 
 main () {
